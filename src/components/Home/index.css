@@ -1,0 +1,178 @@
+/* Write your CSS code here */
+.nav-bar {
+}
+
+.nav-bar-sm {
+  display: block;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-sm {
+    display: none;
+  }
+}
+
+.nav-bar-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+.home-logo-1 {
+  width: 120px;
+  height: auto;
+}
+
+.home-logout-icon {
+  height: 25px;
+  width: auto;
+}
+
+.nav-bar-bottom-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  background-color: #e6f6ff;
+}
+
+.home-icon {
+  height: 25px;
+  width: auto;
+}
+
+.nav-bar-md {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-md {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 45px;
+  }
+}
+
+.home-logo-2 {
+  width: 250px;
+  height: auto;
+}
+
+.nav-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 350px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+}
+
+li {
+  list-style-type: none;
+  font-family: Roboto;
+}
+
+.logout-button {
+  padding: 8px 12px;
+  background-color: #0967d2;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-family: Roboto;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-page {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 75px;
+  }
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    order: 0;
+    width: 650px;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.home-heading {
+  display: block;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 50px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .home-heading {
+    text-align: left;
+  }
+}
+
+.home-image {
+  width: 160px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .home-image {
+    order: 1;
+    width: 400px;
+  }
+}
+
+.home-paragraph {
+  font-family: Roboto;
+  text-align: center;
+  color: #64748b;
+}
+
+@media screen and (min-width: 768px) {
+  .home-paragraph {
+    text-align: left;
+    line-height: 25px;
+  }
+}
+
+.shop-now-button {
+  background-color: #0967d2;
+  font-family: Roboto;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  width: 160px;
+}
+
+@media screen and (min-width: 768px) {
+  .shop-now-button {
+    padding: 12px;
+    font-size: 15px;
+    margin-top: 15px;
+  }
+}
